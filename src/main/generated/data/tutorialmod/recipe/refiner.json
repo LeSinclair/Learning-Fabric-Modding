@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "refiner",
+  "key": {
+    "C": "minecraft:red_carpet",
+    "P": "#minecraft:planks"
+  },
+  "pattern": [
+    " C ",
+    "PPP",
+    " P "
+  ],
+  "result": {
+    "id": "tutorialmod:refiner"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 800,
+  "experience": 2.5,
+  "group": "ruby",
+  "ingredient": "tutorialmod:dorito_block",
+  "result": {
+    "id": "tutorialmod:ruby_block"
+  }
+}

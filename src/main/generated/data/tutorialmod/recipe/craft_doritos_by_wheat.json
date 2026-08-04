@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "get_doritos_by_wheat",
+  "ingredients": [
+    "tutorialmod:dorito_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "tutorialmod:doritos"
+  }
+}

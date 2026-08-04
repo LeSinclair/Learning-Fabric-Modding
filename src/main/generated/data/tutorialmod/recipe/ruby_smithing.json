@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "tutorialmod:doritos",
+  "base": "tutorialmod:doritos",
+  "result": {
+    "id": "tutorialmod:ruby"
+  },
+  "template": "tutorialmod:doritos"
+}

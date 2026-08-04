@@ -1,0 +1,9 @@
+// 26.1.2	-999999999-01-01T00:00:00	Tutorial Mod/Block Loot Tables
+d06f788cc78e703938cf0a43d3a776b90e4fab74 data/tutorialmod/loot_table/blocks/diamond_slab.json
+e6d2c713dce5dc3928a2807db5a5b1f371573154 data/tutorialmod/loot_table/blocks/diamond_stairs.json
+bbf4b8e61cc96ffe2c4d9be7a35b19642a98a46d data/tutorialmod/loot_table/blocks/dorito_block.json
+e10b58ff9a7f9df85b67b7807d5ae423e7a759f8 data/tutorialmod/loot_table/blocks/ruby_block.json
+4f767a7637e8a06ab8dc288b173877b52afc87f4 data/tutorialmod/loot_table/blocks/ruby_button.json
+98bb13f065482402d7583c8ef078231b88832ca4 data/tutorialmod/loot_table/blocks/ruby_slab.json
+4bf0bfaf4e6545bdaa95f0e9a62a72e5b62bb9d0 data/tutorialmod/loot_table/blocks/ruby_stairs.json
+865399c15f94da491a91fa8bc983868706016198 data/tutorialmod/loot_table/blocks/ruby_wall.json
