@@ -1,9 +1,7 @@
 # Tutorial Mod
-
-## Setup
-
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+Yes it really is just called tutorial mod because that's what I followed to make it and couldn't come up with a better name for it
 
 ## License
 
 This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+by LeSinclair
