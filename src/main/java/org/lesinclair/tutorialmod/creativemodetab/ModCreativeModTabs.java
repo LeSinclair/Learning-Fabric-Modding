@@ -11,7 +11,6 @@ import net.minecraft.world.item.Items;
 import org.lesinclair.tutorialmod.TutorialMod;
 import org.lesinclair.tutorialmod.block.ModBlocks;
 import org.lesinclair.tutorialmod.item.Moditems;
-import org.lesinclair.tutorialmod.item.custom.Refiner;
 
 
 public class  ModCreativeModTabs {
@@ -33,6 +32,17 @@ public class  ModCreativeModTabs {
                         output.accept(ModBlocks.RUBY_STAIRS);
                         output.accept(ModBlocks.RUBY_BUTTON);
                         output.accept(ModBlocks.RUBY_WALL);
+                        output.accept(Moditems.RUBY_AXE);
+                        output.accept(Moditems.RUBY_HOE);
+                        output.accept(Moditems.RUBY_PICKAXE);
+                        output.accept(Moditems.RUBY_SHOVEL);
+                        output.accept(Moditems.RUBY_SPEAR);
+                        output.accept(Moditems.RUBY_SWORD);
+
+                        output.accept(Moditems.RUBY_HELMET);
+                        output.accept(Moditems.RUBY_CHESTPLATE);
+                        output.accept(Moditems.RUBY_LEGGINGS);
+                        output.accept(Moditems.RUBY_BOOTS);
                     }).build());
 
 

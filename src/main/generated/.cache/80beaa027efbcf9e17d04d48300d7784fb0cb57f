@@ -1,3 +1,5 @@
 // 26.1.2	-999999999-01-01T00:00:00	Tutorial Mod/Tags for minecraft:block
 ba85cd64270fbae276ab009ca8e4582f30995ba0 data/minecraft/tags/block/needs_iron_tool.json
 a4294123f7f371444f081e1c96232753d00441fd data/minecraft/tags/block/walls.json
+af1e9dcb3ecb909bde41700ab3e478a302ea9b2e data/tutorialmod/tags/block/incorrect_for_ruby_tool.json
+d6bea6402c162b39d8bf75e3735ff600a80b2ec7 data/tutorialmod/tags/block/needs_ruby_tool.json

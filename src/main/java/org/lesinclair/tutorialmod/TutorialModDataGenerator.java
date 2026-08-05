@@ -2,10 +2,7 @@ package org.lesinclair.tutorialmod;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import org.lesinclair.tutorialmod.datagen.ModBlocksLootTableProvider;
-import org.lesinclair.tutorialmod.datagen.ModBlocksTagsProvider;
-import org.lesinclair.tutorialmod.datagen.ModModelProvider;
-import org.lesinclair.tutorialmod.datagen.ModRecipeProvider;
+import org.lesinclair.tutorialmod.datagen.*;
 
 
 public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
@@ -14,8 +11,11 @@ public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
 		var pack = fabricDataGenerator.createPack();
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModBlocksTagsProvider::new);
+		pack.addProvider(ModItemTagProvider::new);
 		pack.addProvider(ModBlocksLootTableProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
+		pack.addProvider(MobEquipmentAssetProvider::new);
+
 
 	}
 }
