@@ -42,6 +42,8 @@ public class Moditems {
     public static final Item RUBY_LEGGINGS = registerItem("ruby_leggings", properties -> new Item(properties.humanoidArmor(ModArmorMaterials.RUBY_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
     public static final Item RUBY_BOOTS = registerItem("ruby_boots", properties -> new Item(properties.humanoidArmor(ModArmorMaterials.RUBY_ARMOR_MATERIAL, ArmorType.BOOTS)));
 
+    public static final Item RUBY_HORSE_ARMOR = registerItem("ruby_horse_armor", properties -> new Item(properties.horseArmor(ModArmorMaterials.RUBY_ARMOR_MATERIAL)));
+
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {
         return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, name),
                 function.apply(new Item.Properties().setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, name)))));

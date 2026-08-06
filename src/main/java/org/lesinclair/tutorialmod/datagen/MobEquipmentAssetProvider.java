@@ -27,6 +27,7 @@ public class MobEquipmentAssetProvider implements DataProvider {
         consumer.accept(ModArmorMaterials.RUBY_KEY,
                 EquipmentClientInfo.builder()
                         .addHumanoidLayers(Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, "ruby"))
+                        .addLayers(EquipmentClientInfo.LayerType.HORSE_BODY, new EquipmentClientInfo.Layer(Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, "ruby")))
                         .build()
         );
     }

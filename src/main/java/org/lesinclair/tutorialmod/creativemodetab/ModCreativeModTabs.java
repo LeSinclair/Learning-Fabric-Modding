@@ -38,11 +38,11 @@ public class  ModCreativeModTabs {
                         output.accept(Moditems.RUBY_SHOVEL);
                         output.accept(Moditems.RUBY_SPEAR);
                         output.accept(Moditems.RUBY_SWORD);
-
                         output.accept(Moditems.RUBY_HELMET);
                         output.accept(Moditems.RUBY_CHESTPLATE);
                         output.accept(Moditems.RUBY_LEGGINGS);
                         output.accept(Moditems.RUBY_BOOTS);
+                        output.accept(Moditems.RUBY_HORSE_ARMOR);
                     }).build());
 
 
