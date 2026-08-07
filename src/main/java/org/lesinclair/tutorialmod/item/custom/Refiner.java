@@ -7,6 +7,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import org.lesinclair.tutorialmod.TutorialMod;
 import org.lesinclair.tutorialmod.block.ModBlocks;
+import org.lesinclair.tutorialmod.stat.ModStats;
 
 import java.util.Map;
 
@@ -29,6 +30,7 @@ public class Refiner extends Item {
             level.setBlockAndUpdate(context.getClickedPos(), REFINER_MAP.get(clickedBlock).defaultBlockState());
             assert context.getPlayer() != null;
             context.getItemInHand().hurtAndBreak(1, context.getPlayer(), context.getHand());
+            context.getPlayer().awardStat(ModStats.BLOCKS_REFINED, 1);
         }
 
         return InteractionResult.SUCCESS;

@@ -8,6 +8,7 @@ import org.lesinclair.tutorialmod.block.ModBlocks;
 import org.lesinclair.tutorialmod.creativemodetab.ModCreativeModTabs;
 import org.lesinclair.tutorialmod.item.Moditems;
 import org.lesinclair.tutorialmod.registries.ModFuels;
+import org.lesinclair.tutorialmod.stat.ModStats;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,6 +23,7 @@ public class TutorialMod implements ModInitializer {
 		Moditems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModFuels.registerFuels();
+		ModStats.registerStats();
 	}
 	public static Identifier id(String path) {
 		return Identifier.fromNamespaceAndPath(MOD_ID, path);
